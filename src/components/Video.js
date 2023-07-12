@@ -1,14 +1,14 @@
 import './Video.css';
-function Video({title,channel,views,time}){
-    
+function Video({title,channel,views,time,verified,id}){
+   
     return(
         <>
             <div className='container'>
                 <div className='pic'>
-                    <img src="https://placekitten.com/260/150" alt="imageloading"/>
+                    <img src={`https://picsum.photos/id/${id}/200/160`}alt="imageloading"/>
                 </div>
                 <div className="title">{title}</div>
-                <div className='channel'>{channel}</div>
+                <div className='channel'>{channel}{verified && '✅'}</div>
                 <div className='views'>
                     {views} views<span>.</span>{time}
                 </div>

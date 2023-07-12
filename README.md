@@ -26,3 +26,8 @@ Installation
 ### Props :
 - React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
 - Props are the information that you pass to a JSX tag. For example, `className`, `src`, `alt`, `width`, and `height` are some of the props you can pass to an `<img>`.
+
+## Chapter 3 - Conditional Rendering & Lists
+
+- We have rendering the different condition `on JSX` which is called Conditional Rendering.and which are minized them conditional as you possible.
+- `map()` In which  we have write a 3 different `video` inside of we are convert data in a single array.and use them in map function. This work are called as `list`.
