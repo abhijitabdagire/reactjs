@@ -31,3 +31,12 @@ Installation
 
 - We have rendering the different condition `on JSX` which is called Conditional Rendering.and which are minized them conditional as you possible.
 - `map()` In which  we have write a 3 different `video` inside of we are convert data in a single array.and use them in map function. This work are called as `list`.
+
+## Chapter 4 - Events, Event handler, Synthetic Event Object
+
+- In this chapter we have create a One more components which is the PlayButton & In this we created a `button`.
+  There are two main types of Event first One is `Mouse Event` and second One is `KeyBoard Event`. In this chapter We are used only one Event which Mouse Event in this mouse event we are use `onClick()`. we have try out another event is Keyboard Event.
+- In this onClick Event Function we are passing `handleClick` And another part we are create modifiacation so we using the `Props` method.
+  such as `Childern` , `onPlay` and `onPause`. This last two are the Event function we are using as props.
+- We have to create `onclick` Event handle function on main div which in the App component so that as result after everyline the onclick funtion was run. This is called the `Event Bubbling`. To remove the event bubbling we have to use the` synthetic event object`. as `e`.
+It is the many functionality such as the `stopPropagation()`.
