@@ -40,3 +40,8 @@ Installation
   such as `Childern` , `onPlay` and `onPause`. This last two are the Event function we are using as props.
 - We have to create `onclick` Event handle function on main div which in the App component so that as result after everyline the onclick funtion was run. This is called the `Event Bubbling`. To remove the event bubbling we have to use the` synthetic event object`. as `e`.
 It is the many functionality such as the `stopPropagation()`.
+
+## Chapter 5 - State, useState Hooks
+
+- The state is a built-in React object that is used to contain data or information about the component(Gobally stored). A component's state can change over time; whenever it changes, the component re-renders.
+- `useState` is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
