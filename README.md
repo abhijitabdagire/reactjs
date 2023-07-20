@@ -45,3 +45,9 @@ It is the many functionality such as the `stopPropagation()`.
 
 - The state is a built-in React object that is used to contain data or information about the component(Gobally stored). A component's state can change over time; whenever it changes, the component re-renders.
 - `useState` is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+
+## Chapter 6 - Form , Synthetic Event Object & Lifting State up
+
+- In this chapter we have create one more components which is the name is `AddVideo`. In this we are create a form with two inputs.
+- Also the we have study about the passing the `useState` from one component to another components. we are use the { }. or multiple setFunction are used in our program and then used the Sythetic event object in handler function such as `e.target.name or value` 
+- Lifting State up means the two component are there and we are passing the state from below component to above component using props statement. 
